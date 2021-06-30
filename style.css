@@ -1,0 +1,327 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; 
+#000000
+*/
+/* common css */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif; 
+    font-weight: 400;
+    color:#626262;
+    font-size: 16px;
+}
+
+/* common css */
+
+
+/* header part */
+header{
+    padding: 15px 0;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.h_wrapper{
+
+}
+.logo{
+    margin-top:11px;
+    width: 13%;
+    /* border: 1px solid; */
+    float: left;
+}
+.logo img{
+
+    width: 100%;
+}
+.menu{
+
+    float: right;
+    width: 65%;
+}
+.menu ul{
+
+    float: right;
+}
+.menu ul li{
+
+    float: left;
+    list-style: none;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 90px;
+    display: inline-block;
+    color:#626262;
+}
+.menu ul li a:hover{
+    color:#000000;
+}
+.menu ul li a:last-child{
+       margin-right:0;
+}
+
+
+
+/* header end */
+
+
+/* banner start */
+
+
+.banner{
+    padding: 10px 0;
+}
+.b_img{
+
+}
+.b_img img{
+     width: 100%; 
+}
+
+
+/* banner end */
+
+
+/* section list */
+
+.list{
+    padding: 70px 0;
+}
+
+.container2{
+    width: 70%;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+.l_wrapper{
+
+}
+.t1{
+    font-size: 14px;
+    color:#b4ad9e;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.t2{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 25px;
+    margin-top:0;
+
+}
+
+.l_wrapper p{
+    font-size: 15px;
+    line-height: 22px;
+
+}
+
+.t3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color:#b4ad9e;
+    font-size: 14px;
+    padding-top: 40px;
+    display: block;
+}
+
+
+/* section end */
+
+
+/* section life style start */
+.l_style{
+    padding: 50px 0;
+}
+.l_wrapper{
+    overflow: hidden;
+}
+.l_left{
+    width: 45%;
+    float: left;
+}
+.l_img img{
+    width: 100%;
+}
+
+.l1{
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight:300 ;
+    color:#b4ad9e;
+    font-size: 14px;
+    display: block;
+    margin:30px 0 ;
+    text-transform: uppercase;
+}
+.l_list p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.l_right{
+    width: 45%;
+    float: right;
+}
+
+
+.margin{
+    margin: 50px 0;
+}
+
+
+
+
+/* section life style end */
+
+
+/* news start */
+
+.news{
+    background-color: #e2e2e2;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.s_form{
+    width: 400px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    position: relative;
+}
+.s_form input{
+    font-size: 14px;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+} 
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{
+
+}
+
+
+
+
+/* news end */
+
+
+/* button part */
+.button1{
+    padding: 150px 0;
+    
+}
+.button2{
+    text-align: center;
+    /* width: 169px; */
+}
+.button2 button{
+
+    width: 160px;
+    height: 55px;
+    font-size:20px;
+    color:#b4ad9e;
+    background-color:transparent;
+}   
+
+/* button end */
+
+
+/* footer start */
+
+
+
+section#footer {
+    background: #e2e2e2;
+    height: 100px;
+}
+
+.f_wrapper {
+    overflow: hidden;
+}
+
+.menu1 {
+    float: left;
+    width: 30%;
+}
+.menu1 ul {
+    float: left;
+}
+.menu1 ul li {
+    list-style:none;
+    float: left;
+}
+.menu1 ul li a{
+    margin: 25px 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: #626262;
+}
+.menu1 ul li a:hover{
+    color:#333333;
+}
+.menu2 {
+    float: right;
+    width: 40%;
+}
+.menu2 ul{
+    float: right;
+}
+.menu2 ul li{
+    float: left;
+    list-style: none;
+}
+.menu2 ul li a {
+    margin: 25px 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #626262;
+}
+.menu2 ul li a:last-child{
+    margin-right: 0px;
+}
+.menu2 ul li a:hover{
+    color: #333333;
+}
+
+
