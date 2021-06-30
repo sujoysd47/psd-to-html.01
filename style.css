@@ -256,7 +256,7 @@ header{
     /* width: 169px; */
 }
 .button2 button{
-
+    border:1px solid #626262;
     width: 160px;
     height: 55px;
     font-size:20px;
